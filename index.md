@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   </head>
   <body>
@@ -14,7 +14,7 @@
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="members/members.html">Members</a>
-          <a href="products.html">Products</a>
+          <a href="products/products.html">Products</a>
 
         </nav>
         <div class="link-icons">
@@ -29,7 +29,7 @@
       <div class="featured">
                 <style>
           main .featured {
-            background-image: url(../imgs/featured-image.jpg);
+            background-image: url(imgs/featured-image.jpg);
           }
         </style>
         <h2>Aesthetics</h2>
