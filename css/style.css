@@ -475,7 +475,7 @@ footer {
 /* ----PHONE SCREEN---- */
 /* ----PHONE SCREEN---- */
 /* -------------------- */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1280px) {
 
   * {
     box-sizing: border-box;
