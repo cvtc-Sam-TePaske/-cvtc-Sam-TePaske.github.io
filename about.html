@@ -3,20 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>About</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
   </head>
   <body>
     <header>
+      <div class="sidebar" style="display:none" id="navMenu"> 
+        <button class="close" onclick="w3_close()"><span href="#" class="innerButton">X</span></button>
+        <a href="index.html" class="navMenuItem">Home</a>
+        <a href="about.html" class="navMenuItem">About</a>
+        <a href="members/members.html" class="navMenuItem">Members</a>
+        <a href="products/products.html" class="navMenuItem">Products</a>
+      </div>
+
       <div class="content-wrapper">
+        <button class="stackButton" onclick="w3_open()">☰</button>
         <h1>The Ghost Rail</h1>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="members/members.html">Members</a>
-          <a href="products/products.html">Products</a>
+          <a href="index.html" class="deskNavMenuItem">Home</a>
+          <a href="about.html" class="deskNavMenuItem">About</a>
+          <a href="members/members.html" class="deskNavMenuItem">Members</a>
+          <a href="products.html" class="deskNavMenuItem">Products</a>
 
         </nav>
+<!--        <div class="logoImage"><img src="imgs/TGR_Logo.png" id="logoImage"></div>-->
         <div class="link-icons">
           <a href="index.php?page=cart">
             <i class="fas fa-shopping-cart"></i>
@@ -24,13 +34,23 @@
           </a>
         </div>
       </div>
+
+      <script>
+        function w3_open() {
+          document.getElementById("navMenu").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("navMenu").style.display = "none";
+        }
+      </script>
     </header>
     <main>
 
       <div class="featured">
         <style>
           main .featured {
-            background-image: url(imgs/featured-image_2.jpg);
+            background-image: url(../imgs/featured-image_2.jpg);
           }
         </style>
         <h2>About Us</h2>
@@ -38,7 +58,7 @@
       </div>
       <div class="recentlyadded content-wrapper">
         <h2>Bringing Aesthetics to you</h2>
-        <div class="products">
+        <div class="about">
           <p id="text">Greetings. our mission is to provide you with access to many historic pieces.</p>
         </div>
       </div>

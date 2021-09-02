@@ -3,20 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <script src="JS/sidebar.js"></script>
   </head>
   <body>
     <header>
+      <div class="sidebar" style="display:none" id="navMenu"> 
+        <button class="close" onclick="w3_close()"><span href="#" class="innerButton">X</span></button>
+        <a href="index.html" class="navMenuItem">Home</a>
+        <a href="about.html" class="navMenuItem">About</a>
+        <a href="members/members.html" class="navMenuItem">Members</a>
+        <a href="products/products.html" class="navMenuItem">Products</a>
+      </div>
+
       <div class="content-wrapper">
+        <button class="stackButton" onclick="w3_open()">☰</button>
         <h1>The Ghost Rail</h1>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="members/members.html">Members</a>
-          <a href="products/products.html">Products</a>
+          <a href="index.html" class="deskNavMenuItem">Home</a>
+          <a href="about.html" class="deskNavMenuItem">About</a>
+          <a href="members/members.html" class="deskNavMenuItem">Members</a>
+          <a href="products.html" class="deskNavMenuItem">Products</a>
 
         </nav>
+<!--        <div class="logoImage"><img src="imgs/TGR_Logo.png" id="logoImage"></div>-->
         <div class="link-icons">
           <a href="index.php?page=cart">
             <i class="fas fa-shopping-cart"></i>
@@ -24,12 +35,22 @@
           </a>
         </div>
       </div>
+
+      <script>
+        function w3_open() {
+          document.getElementById("navMenu").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("navMenu").style.display = "none";
+        }
+      </script>
     </header>
     <main>
       <div class="featured">
-                <style>
+        <style>
           main .featured {
-            background-image: url(imgs/featured-image.jpg);
+            background-image: url(../imgs/featured-image.jpg);
           }
         </style>
         <h2>Aesthetics</h2>
@@ -38,47 +59,47 @@
       <div class="recentlyadded content-wrapper">
         <h2>Recently Added Products</h2>
         <div class="products">
-          
+
           <!--Product 1 -->
           <a href="products/product_0.html" class="product">
             <img src="imgs/apollo.jpg" width="200" height="200" alt="apollo">
             <span class="name">Apollo</span>
             <span class="price">
-              &dollar;89.99
-              <span class="rrp">&dollar;99.99</span>
+              &dollar;99.99
+              <span class="rrp">&dollar;89.99</span>
             </span>
           </a>
-          
+
           <!--Product 2 -->
-           <a href="products/product_1.html" class="product">
+          <a href="products/product_1.html" class="product">
             <img src="imgs/diana.jpg" width="200" height="200" alt="apollo">
             <span class="name">Dianna</span>
             <span class="price">
-              &dollar;139.99
-              <span class="rrp">&dollar;149.99</span>
+              &dollar;149.99
+              <span class="rrp">&dollar;89.99</span>
             </span>
           </a>
-          
+
           <!--Product 3 -->
-           <a href="products/product_2.html" class="product">
+          <a href="products/product_2.html" class="product">
             <img src="imgs/hermes.jpg" width="200" height="200" alt="apollo">
             <span class="name">Hermes</span>
             <span class="price">
-              &dollar;85.99
-              <span class="rrp">&dollar;95.99</span>
+              &dollar;95.99
+              <span class="rrp">&dollar;85.99</span>
             </span>
           </a>
-          
+
           <!--Product 4 -->
-           <a href="products/product_3.html" class="product">
+          <a href="products/product_3.html" class="product">
             <img src="imgs/zeus.jpg" width="200" height="200" alt="apollo">
             <span class="name">Zeus</span>
             <span class="price">
               &dollar;299.99
-<!--              <span class="rrp">&dollar;89.99</span>-->
+              <!--              <span class="rrp">&dollar;89.99</span>-->
             </span>
           </a>
-          
+
         </div>
       </div>
 
