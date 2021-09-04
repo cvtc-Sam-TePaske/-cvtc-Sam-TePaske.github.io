@@ -688,10 +688,10 @@
 	*/
   
 	.stackButton {
-	  font-size:75px!important;
+	  font-size:85px!important;
 	  border: none;
 	  background: none;
-	  height: 85px;
+	  height: 95px;
 	  margin: 5px;
 	  color: #555555;
 	}
@@ -979,7 +979,7 @@
 	
 	main > .product > img {
 	  height: 400px;
-	  width: 370px;
+	  width: 380px;
 	}
 	main > .product h1 {
 	  font-size: 40px;
