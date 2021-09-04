@@ -488,7 +488,7 @@
 	* {
 	  box-sizing: border-box;
 	  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
-	  font-size: 16px;
+	  font-size: 30px;
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
 	}
@@ -578,7 +578,7 @@
 	  text-decoration: none;
 	  color: #394352;
 	  margin: 0 20px;
-	  margin-bottom: 110px;
+	  margin-bottom: 100px;
 	}
 	header .link-icons a:hover {
 	  color: #4e5c70;
@@ -599,7 +599,7 @@
 	  height: 16px;
 	  font-weight: bold;
 	  position: absolute;
-	  top: 15px;
+	  top: 18px;
 	  right: 20px;
 	}
   
@@ -660,7 +660,7 @@
 	  text-align:justify;
 	  cursor:pointer;
 	  white-space:nowrap;
-	  font-size: 35px;
+	  font-size: 45px;
 	  font-weight: 500;
 	}
   
@@ -673,10 +673,11 @@
 	}
   
 	.innerButton {
-	  font-size: 40px;
+	  font-size: 45px;
 	  font-weight: 500;
 	  position: relative;
 	  bottom: 47%;
+	  color: #555555;
 	}
   
 	/*
@@ -687,7 +688,7 @@
 	*/
   
 	.stackButton {
-	  font-size:45px!important;
+	  font-size:65px!important;
 	  border: none;
 	  background: none;
 	  height: 58px;
@@ -710,7 +711,7 @@
 	  background-image: url(imgs/featured-image.jpg);
 	  background-repeat: no-repeat;
 	  background-size: auto;
-	  height: 300px;
+	  height: 350px;
 	  width: 100%;
 	  align-items: center;
 	  justify-content: center;
@@ -729,7 +730,7 @@
 	  display: inline-block;
 	  margin: 0;
 	  width: 400px;
-	  font-size: 24px;
+	  font-size: 40px;
 	  color: #FFFFFF;
 	}
 	main .recentlyadded h2 {
@@ -737,7 +738,7 @@
 	  font-weight: normal;
 	  margin: 0;
 	  padding: 30px 0;
-	  font-size: 30px;
+	  font-size: 40px;
 	  text-align: center;
 	  width: 100%;
 	  border-bottom: 1px solid #EEEEEE;
@@ -747,10 +748,10 @@
 	  display: flex;
 	  flex-wrap: wrap;
 	  flex-direction: row;
-	  margin: 12px;
+	  margin: 20px;
 	  /*    flex-direction: column;*/
 	  justify-content: space-around;
-	  align-content: center;
+	  /* align-content: center; */
 	  /*    padding: 50px;*/
 	  text-decoration: none;
 	}
@@ -762,10 +763,11 @@
 	}
   
 	main .recentlyadded .products .product, main .products .product, main .recentlyadded .members .member {
-	  width: 320px;
-	  height: 480px;
-	  padding-bottom: 65px;
-	  text-decoration: none;
+		margin: 15px;
+		width: 375px;
+		height: 485px;
+		padding-bottom: 65px;
+		text-decoration: none;
 	}
   
 	/*
@@ -854,13 +856,13 @@
 	  transition: transform 1s;
 	}
 	main .recentlyadded .members .member .name, main .members .members-wrapper .member .name {
-	  font-size: 24px;
+	  font-size: 35px;
 	  display: block;
 	  color: #555555;
 	  padding: 20px 0 2px 0;
 	}
 	main .recentlyadded .members .member .caption {
-	  font-size: 22px;
+	  font-size: 32px;
 	  display: block;
 	  color: #999999;
 	}
@@ -893,14 +895,14 @@
 	  padding-left: 15px;
 	}
 	main > .member h1 {
-	  font-size: 34px;
+	  font-size: 38px;
 	  font-weight: normal;
 	  margin: 0;
 	  padding: 20px 0 10px 0;
 	}
 	main > .member .caption {
 	  display: block;
-	  font-size: 22px;
+	  font-size: 30px;
 	  color: #999999;
 	}
   
@@ -924,10 +926,10 @@
 	  background: #4e5c70;
 	  border: 0;
 	  color: #FFFFFF;
-	  width: 400px;
+	  width: 300px;
 	  padding: 12px 0;
 	  text-transform: uppercase;
-	  font-size: 20px;
+	  font-size: 37px;
 	  font-weight: bold;
 	  border-radius: 5px;
 	  cursor: pointer;
@@ -937,18 +939,18 @@
 	}
   
 	.member.content-wrapper .description ul li{
-	  font-size: 12px;
+	  font-size: 32px;
 	}
   
 	.member.content-wrapper .description p {
 	  margin-right: 20px;
 	  text-align: justify;
-	  font-size: 14px;
+	  font-size: 30px;
 	}
   
 	main > .member.content-wrapper #image {
-	  width: 495px;
-	  height: 495px;
+	  width: 490px;
+	  height: 490px;
 	  float: right;
 	  margin: 15px;
 	}
