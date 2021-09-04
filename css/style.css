@@ -688,10 +688,10 @@
 	*/
   
 	.stackButton {
-	  font-size:65px!important;
+	  font-size:75px!important;
 	  border: none;
 	  background: none;
-	  height: 75px;
+	  height: 85px;
 	  margin: 5px;
 	  color: #555555;
 	}
@@ -979,7 +979,7 @@
 	
 	main > .product > img {
 	  height: 400px;
-	  width: 340px;
+	  width: 370px;
 	}
 	main > .product h1 {
 	  font-size: 40px;
@@ -1026,12 +1026,25 @@
 	main > .product form input[type="submit"]:hover {
 	  background: #434f61;
 	}
+
+	main > .product .description p {
+		font-size: 25px
+	  }
+	  
+	  main > .product .description h3 {
+		font-size: 22px;
+	  }
+	  
+	  main > .product .description ul li {
+		font-size: 20px;
+	  }
+
 	main > .products h1 {
 	  display: block;
 	  font-weight: normal;
 	  margin: 0;
 	  padding: 40px 0;
-	  font-size: 24px;
+	  font-size: 35px;
 	  text-align: center;
 	  width: 100%;
 	}
